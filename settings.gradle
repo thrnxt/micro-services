@@ -1,0 +1,8 @@
+rootProject.name = 'final-project'
+include 'user-service'
+include 'api-gateway'
+include 'eureka-server'
+
+
+
+
