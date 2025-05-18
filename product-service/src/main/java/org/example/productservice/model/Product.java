@@ -9,6 +9,15 @@ public class Product {
     private Long id;
     private String title;
     private int cost;
+    private Long ownerId; // ID пользователя
+
+    public Long getOwnerId() {
+        return ownerId;
+    }
+
+    public void setOwnerId(Long ownerId) {
+        this.ownerId = ownerId;
+    }
 
     public Long getId() {
         return id;

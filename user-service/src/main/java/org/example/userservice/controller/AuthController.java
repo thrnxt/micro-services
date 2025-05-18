@@ -57,8 +57,6 @@ public class AuthController {
         return ResponseEntity.ok(new AuthResponse(token));
     }
 
-
-
     public static class RegisterRequest {
         private String username;
         private String password;

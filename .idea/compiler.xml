@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="21">
+      <module name="api-gateway" target="21" />
+      <module name="api-gateway.main" target="21" />
+      <module name="api-gateway.test" target="21" />
+      <module name="eureka-server" target="21" />
+      <module name="eureka-server.main" target="21" />
+      <module name="eureka-server.test" target="21" />
+      <module name="product-service" target="21" />
+      <module name="product-service.main" target="21" />
+      <module name="product-service.test" target="21" />
       <module name="user-service" target="21" />
       <module name="user-service.main" target="21" />
       <module name="user-service.test" target="21" />
